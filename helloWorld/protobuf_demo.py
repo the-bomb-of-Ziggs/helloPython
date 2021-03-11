@@ -5,6 +5,7 @@ python 安装Protobuffer，到官网下载安装包 protobuf-python-3.5.1.tar.gz
 
 '''
 from helloWorld import msg_pb2
+from helloWorld import hellogrpc_pb2
 
 account = msg_pb2.Account()
 
